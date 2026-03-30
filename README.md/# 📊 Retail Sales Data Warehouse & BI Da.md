@@ -1,11 +1,11 @@
-# 📊 Retail Sales Data Warehouse & BI Dashboard
+#  Retail Sales Data Warehouse & BI Dashboard
 
-## 🔍 Overview
+## Overview
 This project demonstrates an end-to-end data analytics pipeline, transforming raw retail sales data into structured insights using a data warehouse and Power BI dashboard.
 
 ---
 
-## 🎯 Objective
+##  Objective
 To design a data warehouse and analytics system that enables analysis of:
 - Product demand
 - Sales performance
@@ -16,21 +16,21 @@ The goal is to support data-driven decision-making in retail.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - MySQL (Data Warehouse)
 - SQL (ETL + Analysis)
 - Power BI (Dashboard)
 
 ---
 
-## 🧱 Data Architecture
+##  Data Architecture
 - **Staging Table:** raw_orders
 - **Dimension Tables:** dim_product, dim_location, dim_date, dim_segment
 - **Fact Table:** fact_sales
 
 ---
 
-## 🔄 ETL Process
+##  ETL Process
 1. Loaded raw CSV data into staging table
 2. Cleaned and transformed data
 3. Created dimension tables
@@ -38,7 +38,7 @@ The goal is to support data-driven decision-making in retail.
 
 ---
 
-## 📊 Key Metrics
+##  Key Metrics
 - Total Revenue
 - Total Profit
 - Total Orders
@@ -46,7 +46,7 @@ The goal is to support data-driven decision-making in retail.
 
 ---
 
-## 📈 Dashboard Insights
+##  Dashboard Insights
 - Sales trend over time
 - Category-wise revenue distribution
 - Top-performing products
@@ -54,12 +54,12 @@ The goal is to support data-driven decision-making in retail.
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 ![Dashboard](screenshots/dashboard.png)
 
 ---
 
-## 🚀 Key Learnings
+##  Key Learnings
 - Data warehouse design (star schema)
 - ETL pipeline development
 - SQL-based analytics
